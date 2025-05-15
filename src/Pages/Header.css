@@ -1,0 +1,45 @@
+/* Header.css */
+.header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .logo h1 {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  
+  .navigation ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navigation li {
+    margin-left: 2rem;
+  }
+  
+  .navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navigation a:hover {
+    color: #ff5722;
+  }

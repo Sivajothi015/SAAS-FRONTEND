@@ -1,0 +1,105 @@
+/* FertilizerRecommender.css */
+/* Using a unique class prefix to prevent CSS conflicts with other files */
+
+.fertilizer-recommender-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .fertilizer-recommender-container h1 {
+    color: #2c5e1a;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .fertilizer-form-container {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .fertilizer-recommender-container .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .fertilizer-recommender-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .fertilizer-recommender-container input,
+  .fertilizer-recommender-container select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .fertilizer-recommender-container input:focus,
+  .fertilizer-recommender-container select:focus {
+    outline: none;
+    border-color: #4caf50;
+    box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+  }
+  
+  .fertilizer-recommender-container .submit-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  .fertilizer-recommender-container .submit-button:hover {
+    background-color: #388e3c;
+  }
+  
+  .fertilizer-recommender-container .recommendation-container {
+    background-color: #e8f5e9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .fertilizer-recommender-container .recommendation-container h2 {
+    color: #2c5e1a;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #a5d6a7;
+  }
+  
+  .fertilizer-recommender-container .recommendation-details {
+    padding: 10px 0;
+  }
+  
+  .fertilizer-recommender-container .recommendation-details p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .fertilizer-recommender-container {
+      padding: 15px;
+    }
+    
+    .fertilizer-form-container,
+    .fertilizer-recommender-container .recommendation-container {
+      padding: 15px;
+    }
+  }
