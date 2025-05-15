@@ -14,7 +14,7 @@ The **Smart Agro Advisory System** is a smart web-based solution designed to ass
 
 ---
 
-  📦 Related Repositories
+  📦 Related Repository
 🔗 Backend Repo: https://github.com/Sivajothi015/SAAS-BACKEND
 
 
