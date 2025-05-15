@@ -12,5 +12,10 @@ The **Smart Agro Advisory System** is a smart web-based solution designed to ass
 - 📊 **User Activity Tracker**: Tracks user activity such as page visits and feature usage.
 - 📱 **Responsive UI**: Clean and responsive interface optimized for both desktop and mobile users.
 
+---
+
+  📦 Related Repositories
+🔗 Backend Repo: 
+
 
 
