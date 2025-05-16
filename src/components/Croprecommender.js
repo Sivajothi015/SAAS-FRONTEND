@@ -15,7 +15,7 @@ export default function CropRecommender() {
   });
   const [recommendedCrop, setRecommendedCrop] = useState("");
 
-  const API_KEY = "26cd3c9154f754356ef4852e05fe6360"; 
+  const API_KEY = "API_KEY"; 
 
   // 🔍 Fetch weather when user presses Enter
   const handleLocationEnter = async (e) => {
